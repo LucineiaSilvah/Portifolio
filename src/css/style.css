@@ -41,7 +41,7 @@ ul {
 
     line-height: 1em;
     text-indent: 1em;
-    background-image: url(/src/img/Group.svg);
+    background-image: url("/src/img/Group.svg");
     background-position: top left;
     background-repeat: no-repeat;
 
@@ -99,14 +99,15 @@ ul {
 }
 
 .sobre {
-    background-color: var(--azul-claro);
     padding: 5% 14%;
+    
 }
 
 .sobre-titulo {
     font-weight: 700;
     font-size: 2em;
     margin-bottom: 25px;
+
 }
 
 .sobre .sobre-conteudo {
@@ -117,7 +118,8 @@ ul {
 }
 
 .sobre p {
-    margin: 2%;
+    margin: 2% 0;
+
 }
 
 .sobre .ass {
@@ -139,6 +141,7 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 72%;
 
 
 
@@ -175,7 +178,6 @@ a {
 }
 
 .academico {
-    background: var(--azul-claro);
     padding: 5% 14%;
 }
 
@@ -260,7 +262,6 @@ li p~p {
 
 .contato {
     padding: 5% 14%;
-    background-color: var(--azul-claro);
     display: flex;
     height: 700px;
 }

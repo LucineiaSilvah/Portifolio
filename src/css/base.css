@@ -16,6 +16,10 @@ body{
     font-family: var(--fonteRelewey);
     background-color: var(--brancoleve);
 }
+.sobre, .academico, .contato{
+    background-color: var(--azul-claro);
+    
+} 
 ul button a{
     color:var(--azul-escuro);
 }
