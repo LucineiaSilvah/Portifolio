@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: stringline;
-    src: url(src/stringline/Stringline.ttf);
+    src: url('/src/stringline/Stringline.ttf');
  }
 body{
     font-family: var(--fonteRelewey);
