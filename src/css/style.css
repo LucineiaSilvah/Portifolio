@@ -1,0 +1,559 @@
+#container {
+    max-width: 1440px;
+    max-height: 5000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+header {
+    width: 90%;
+    margin: auto;
+}
+
+header .nav-menu {
+    margin: auto;
+    width: 80%;
+    padding: 32px 0 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+
+}
+
+.nav-lista li:nth-child(6) {
+    font-weight: 700;
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+
+
+    line-height: 1em;
+    text-indent: 1em;
+    background-image: url(/src/img/Group.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+
+.b-vindas {
+    margin: 20px auto;
+    width: 72%;
+    display: flex;
+    align-items: center;
+    height: 368px;
+}
+
+.b-vindas .texto-b-vindas {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.b-vindas h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.b-vindas p {
+    color: var(--preto-leve);
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.lista {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.links-b-vindas li a {
+    color: #000000;
+    font-weight: 300;
+}
+
+.links-b-vindas img {
+
+    width: 15px;
+
+}
+
+.b-vindas .img-b-vindas img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sobre {
+    background-color: var(--azul-claro);
+    padding: 5% 14%;
+}
+
+.sobre-titulo {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.sobre .sobre-conteudo {
+
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+.sobre p {
+    margin: 2%;
+}
+
+.sobre .ass {
+    font-family: stringline;
+    margin-top: 25px;
+}
+
+.skills-hobbies {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.area-skills {
+    height: 244px;
+    margin: 3% auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+h3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 10px;
+
+}
+
+.area-skills ul {
+    width: 100%;
+    padding: 1% 10%
+}
+
+.area-skills ul li {
+    width: 176px;
+    height: 174px;
+
+    display: flex;
+    align-items: end;
+    border-radius: 5%;
+    padding: 1%;
+    box-shadow: 1px 1px 6px rgb(214, 213, 213);
+
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+}
+
+.academico {
+    background: var(--azul-claro);
+    padding: 5% 14%;
+}
+
+.academico ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.academico .img {
+    width: 100%;
+    height: 250px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+
+}
+
+.academico li {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.academico li p~p {
+    font-weight: 300;
+}
+
+.experiencias-area {
+    height: auto;
+    width: 100%;
+    margin: auto;
+
+}
+
+.experiencias-conteudo {
+    display: flex;
+    width: 72%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-experiencias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 350px;
+    font-weight: 700;
+
+}
+
+.card-experiencias:nth-child(2) {
+
+    flex-direction: row-reverse;
+
+}
+
+.card-experiencias img {
+    width: 40%;
+    box-shadow: -2px 2px 3px;
+}
+
+
+.info .demo,
+.info .demo a {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+li p~p {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+
+.contato {
+    padding: 5% 14%;
+    background-color: var(--azul-claro);
+    display: flex;
+    height: 700px;
+}
+
+.contato h3 {
+    text-align: start;
+}
+
+.contato p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contato p+p {
+    margin-bottom: 5%;
+}
+
+.contato-conteudo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.contato-conteudo img {
+    width: 45%;
+
+
+}
+
+form {
+
+    margin-left: 2%;
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+
+}
+
+textarea {
+    border: none;
+    border-bottom: 2px solid var(--cinza);
+
+}
+
+label {
+    background-color: var(--branco);
+    text-indent: 2px;
+    font-weight: 200;
+
+}
+
+input {
+    margin-bottom: 5%;
+    border: none;
+    border-bottom: 2px solid var(--cinza);
+    padding: 10px;
+}
+
+.btn {
+    width: 150px;
+    margin-top: 5%;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+}
+
+
+
+
+/*tablet 768px*/
+@media (max-width:768px) {
+
+    header {
+        font-size: 1em;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header .nav-menu {
+
+        justify-content: space-between;
+        width: 90%;
+        padding: 5%;
+
+
+    }
+
+    .nav-lista li:nth-child(1),
+    .nav-lista li:nth-child(2),
+    .nav-lista li:nth-child(3),
+    .nav-lista li:nth-child(4),
+    .nav-lista li:nth-child(5) {
+        display: none;
+
+    }
+
+    .b-vindas {
+        width: 100%;
+        max-height: 210px;
+    }
+
+    .b-vindas .b-vindas-titulo {
+        font-size: 1.8em;
+    }
+
+    .b-vindas .texto-b-vindas {
+        justify-content: space-evenly;
+        height: 150px;
+
+        padding: 5%;
+    }
+
+    .b-vindas .texto-b-vindas .b-vindas-info {
+        font-size: 0.8em;
+        padding: 1em 0;
+
+
+    }
+
+    .img-b-vindas img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .sobre {
+        padding: 5%;
+        font-size: 0.8em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .area-skills {
+        margin-top: 5%;
+        height: auto;
+    }
+
+    .area-skills ul {
+        margin: auto;
+        height: auto;
+        flex-wrap: wrap;
+
+    }
+
+    .area-skills ul li {
+
+        height: 100px;
+    }
+
+    .academico {
+        padding: 10% 4%;
+    }
+
+    .academico ul {
+
+        height: auto;
+        padding: 30px;
+
+    }
+
+    .academico .img {
+        height: 100px;
+        margin-bottom: 2%;
+
+
+    }
+
+
+
+    .academico ul li p {
+        margin-top: 2%;
+    }
+
+    .card-experiencias {
+        flex-direction: column;
+    }
+
+    .card-experiencias img {
+        width: 100%;
+    }
+
+    .card-experiencias .info {
+        width: 100%;
+        align-items: start;
+    }
+
+    .card-experiencias:nth-child(2) {
+
+        flex-direction: column;
+
+    }
+
+    .contato {
+        font-size: 1em;
+
+    }
+
+    .contato-conteudo form {
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .contato-conteudo img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:360px) {
+
+
+    header {
+     height: 5rem;
+     line-height: 3rem;
+    }
+
+    .nav-menu {
+        font-size: .8em;
+       
+    }
+
+    .nav-logo {
+       line-height: 1.5em;
+       font-size: 1.3em;
+       text-indent: 25px;
+    }
+
+    .nav-menu ul li:nth-child(6) {
+        font-weight: 400;
+    }
+     .b-vindas{
+        font-size: 0.9rem;
+        flex-direction: column-reverse;
+        margin: 0;
+        min-width: 380px;
+        min-height:360px;
+        
+        
+        
+     }
+    
+    .b-vindas .texto-b-vindas{
+        font-size: 1em;
+        padding: 5%;
+        margin-bottom: 1%;
+        justify-content: space-around;
+     }
+     
+     .img-b-vindas{
+       height: auto;
+       align-self: flex-start;
+   
+     
+        
+     }
+     .sobre-conteudo{
+        font-size: .9rem;
+    
+        
+     }
+     .sobre-titulo{
+        font-size: 1rem;
+        margin-bottom: 2%;
+        padding: 1%;
+     }
+ 
+     .area-skills ul li{
+        flex-basis: 35%;
+     }
+     .academico{
+        font-size: .9rem;
+     }
+     .academico ul{
+        flex-direction: column;
+        
+     }
+     .academico ul li{
+        width: 100%;
+     }
+     h3{
+        font-size: 1.2rem;
+     }
+     .botao{
+
+        width: 40%;
+        height: 30px;
+     }
+}
