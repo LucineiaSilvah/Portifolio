@@ -1,0 +1,39 @@
+.contato__formulario{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 3rem;
+    
+}
+
+.contato__formulario label{
+    background: var(--branco);
+  display: flex;
+  padding: 0 0.25rem;
+    font-weight: 300;
+}
+.contato__formulario input{
+    border-radius: 5px;
+  
+    padding: 1rem;
+    border:none;
+    
+}
+@media screen and  (min-width:0){
+    .contato__formulario{
+width: 80%;
+      }
+  label{
+    margin:1rem 0;
+  }
+  }
+  @media screen and  (min-width:768px){
+    .contato__formulario{
+width: 70%;
+      }
+  label{
+    margin: 0;
+  }
+  }
+
