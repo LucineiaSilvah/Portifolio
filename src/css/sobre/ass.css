@@ -1,6 +1,6 @@
 @media screen and (min-width:0) {
   .ass{
-    background: url(/src/img/asss.png) no-repeat left center;
+    background: url(src/img/asss.png) no-repeat left center;
       font-family: stringline;
       padding: 1.5rem;
       
@@ -11,7 +11,7 @@
 @media screen and (min-width:768px) {
   .ass{
    
-    background: url(/src/img/ass.png) no-repeat left center;
+    background: url(src/img/ass.png) no-repeat left center;
     padding: 3rem;
   }
 }
