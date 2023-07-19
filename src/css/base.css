@@ -11,7 +11,11 @@
 
 @font-face {
     font-family: stringline;
+<<<<<<< HEAD
     src: url(/src/stringline/Stringline.ttf)
+=======
+    src: url('/src/stringline/Stringline.ttf');
+>>>>>>> parent of ba394cb (css)
  }
   .ass{
     font-family: stringline;
