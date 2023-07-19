@@ -3,7 +3,7 @@
     width: 100%;
     justify-content: space-around;
     flex-direction: row; 
-    padding:3rem;
+    
     flex-wrap: wrap;
 
 }
@@ -18,12 +18,18 @@
    
 }
 @media screen and (min-width:0) {
+   .skills__lista{
+      padding:1rem; 
+   }
     .skills__lista li{
         margin-bottom: 4%;
         width:20%;
     }
 }
 @media screen and (min-width:768px) {
+    .skills__lists{
+        padding:3rem;
+    }
     .skills__lista li{
         margin-bottom: 4%;
         width:25%;
