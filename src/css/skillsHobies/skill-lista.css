@@ -16,7 +16,7 @@
 @media screen and (min-width:0) {
    .skills__lista{
     padding: 3rem 0;
-      border: 2px solid red;
+    
     
    }
     .skills__lista li{
@@ -31,9 +31,7 @@
      width: 70%;
 
     }
-    .skills__lista li{
-      
-    }
+  
 }
 @media screen and (min-width:992px) {
     .skills__lista{
