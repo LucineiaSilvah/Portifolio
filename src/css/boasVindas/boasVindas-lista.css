@@ -5,7 +5,7 @@
 
 }
 .boas-vindas__lista li{
-    background: url('/src/img/arrow_back_black_24dp\ 1.svg') no-repeat right center;
+    background: url('src/img/arrow_back_black_24dp\1.svg') no-repeat right center;
    
     flex-basis: 90px;
 }
