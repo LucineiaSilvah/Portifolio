@@ -1,7 +1,7 @@
 .logo{
 
     font-weight: bold;
-    background: url(src/img/Group.svg) no-repeat center left;
+    background: url('/src/img/Group.svg') no-repeat center left;
     
 }
 @media screen and (min-width:0) {
@@ -17,7 +17,7 @@
         font-size: 1.5rem;
         padding: 2rem ;
         width: 20%;
-    
+        margin-left: 3rem;
         
     }
 }
